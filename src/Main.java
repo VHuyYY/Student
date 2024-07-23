@@ -15,3 +15,9 @@ nào ngày lúc biên dịch)
 - Là các phương thức cùng tên chị cần khác nhau về tham số truyền vào
 (số lượng hoặc kiểu dữ liệu)
  */
+class Address
+{
+    // Định nghĩa kiểu dữ liệu mới
+    int soNha;
+    String Xa;
+}

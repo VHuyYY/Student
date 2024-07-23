@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b3636b3-106d-4783-949c-759d2a436944" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BTVN/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BTVN/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BTVN/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UML/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractClassAndlnterface/Hinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractClassAndlnterface/HinhChuNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractClassAndlnterface/HinhTron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractClassAndlnterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/FlyAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manger/IManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manger/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manger/ProductManger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,27 +38,31 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2jKWRfrfRlBuKGJoV7YFYzSJj9C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Codegym/Module_2/KeThua/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "Application.Main2.executor": "Run",
+    "Application.Manger.Main.executor": "Run",
+    "Application.Student.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Codegym/Module_2/KeThua/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BTVN.Main" />
@@ -76,8 +77,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Manger.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Manger.Main" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Manger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Student.Main" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student.Main" />
+        <item itemvalue="Application.Manger.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -101,7 +130,8 @@
       <workItem from="1721136242892" duration="3466000" />
       <workItem from="1721303953964" duration="1779000" />
       <workItem from="1721312592473" duration="338000" />
-      <workItem from="1721474926465" duration="395000" />
+      <workItem from="1721474926465" duration="8627000" />
+      <workItem from="1721728351725" duration="2325000" />
     </task>
     <servers />
   </component>
